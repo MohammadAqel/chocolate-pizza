@@ -1,6 +1,196 @@
-#header{
+  
+body{position: relative;
+  width: 75%;
+  margin: 0 auto;
+}
+/*----------- HEADER -------- */
+header{
+  position: relative;
+}
+#delicious{
+  font-family: 'Lobster', cursive;
+  font-size: 35px;
+  margin: 0;
+  font-style: italic;
+}
+#underLogo{
+  font-size: 10px;
+  margin: 0;
+}
+#logoSec{
+  float: left;
+  width: 50%;
+  margin:10px auto 20px auto;
+}
+#logoSec div{
+  display: inline-block;
+margin-top: 2px;
+line-height: 10px;
+}
+
+#rightSec{
+  margin-top: 22px;
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+#rightSec ul:first-child{
+  margin-right: 10px;
+}
+#rightSec ul{
+  display: inline
+}
+#rightSec ul li{
+  display: inline-block;
+  
+}
+.hrImg
+{
+clear: both;
+display:block;
+border:none;
+height:10px;
+background-image:url('Images/hr-img.png');
+} 
+/* -------------------------------------- */
+/* MAIN */
+main{
+  position: relative;
+}
+#topMain div P{
+  font-size: 13PX;
+  color: gray;
+  margin-top: 10px;
+}
+#topMain div h1{
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Viga', sans-serif;
+}
+#topMain div:last-child{
+  text-align: right;
+  float: right;
+  width: 50%;
+  margin-top: 30px;
+  color: gray;
+  font-size: 12PX;
+}
+
+
+#topMain div:first-child{
+  float: left;
+  width: 50%;
+}
+#topMain{
+  margin-top: 30px;
+}
+article div img{
+  
+  width:100%;
+  height: 530px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+article div p{
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+
+#recipe {
+  background-image:url(./Images/list-bg.png);
+  background-position:left;
+  width:inherit;
+
+  box-shadow:4px 7px 5px rgb(221, 218, 218) ;
+}
+fieldset div:first-child {
+  float: left;
+  width: 50%;
+  
+}
+fieldset div:last-child {
+  float: right;
+  width: 50%;    
+}
+fieldset div input{
+  margin-left: 0px;
+}
+fieldset div{
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+fieldset div *{
+  margin-top:10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(88, 87, 87);
+}
+#leftRecipe input{
+  margin-left: 35px;
+}
+#rghtRecipe input{
+  margin-left: -10px;
+}
+#endDiv {
+display:inline-flex ;
+}
+#endDiv div{
+margin-right: 25px;
+}
+#endDiv div p{
+  line-height: 25px;
+}
+
+#endDiv div h3{
+font-size: 20px;
+font-weight: bold;
+margin-bottom: 15px;
+}
+#endDiv div input{
+  height:50px;
+  margin-top: 15px;
+  color: white;
+  background-color: rgb(114, 67, 5);
+  width: 175px;
+}
+footer{
+  text-align: center;
+  width: 100%;
+}
+footer div{
+  width:100%;
+
+}
+footer div hr{
+  margin: auto;
+  display: inline-block;
+  text-align: center;
+  width:100%;
+  
+  border-style: inset;
+}
+footer div{
+  display: inline-flex;
+}
+#copyRights {
+  margin-top: -20px;
+  margin-bottom: 10px;
+  display: block;
+  color: grey;
+  
+}
+.in1{
+    text-decoration: line-through;
+    font-size: 17px;
+  }
+
+.in2{
+  text-decoration: line-through;
+}
+/* #header{
     font-family: 'Lobster' ;
-    /* display: inline-block; */
+  
 }
 body{
     margin: auto 20%;
@@ -40,22 +230,30 @@ h2{
     padding-top: 10px;
     font-size: 20px;
     text-align: justify;
-    /* width: 100%; */
+  
     position: absolute;
     top: 8px;
     left: 50px;
     color: black;
   }
 
-  /* .in1{
+  .in1{
     text-decoration: line-through;
     margin-right: 50px;
-  } */
+  }
   #img3{
       display: inline;
   }
   #img{
-    width: 805px;
+    
+    width: 905px;
+    height: 10px;
+    margin-top: 32px;
+    background-image:url(Images/hr-img.png) ;
+    display:inline;
+  }
+  #img2{
+    width: 905px;
     height: 10px;
     margin-top: 32px;
     background-image:url(Images/hr-img.png) ;
@@ -98,9 +296,9 @@ h2{
       font-size: XX-SMALL;
       color: darkgrey;
   }
-  /* .in2{
+  .in2{
     text-decoration: line-through;
-  } */
+  }
 
   #space{
       margin-right: 15px;
@@ -110,7 +308,7 @@ h2{
     padding-top: 10px;
     font-size: 20px;
     text-align: justify;
-    /* width: 45%; */
+    
     position: absolute;
     top: 8px;
     right: 50px;
@@ -152,8 +350,8 @@ h2{
     
   }
   #li2{
-    margin-top: 17px;
-      clear: both;
+    margin-inline: 17px;
+      clear:both;
       margin-left: 50%;
   }
   #li3{
@@ -174,3 +372,7 @@ position: relative;
 margin-top: 32px;
 color:gray ;
   }
+
+#hrimg{
+  
+} */
