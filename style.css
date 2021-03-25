@@ -47,17 +47,19 @@ h2{
     color: black;
   }
 
-  .in1{
+  /* .in1{
     text-decoration: line-through;
     margin-right: 50px;
-  }
+  } */
   #img3{
       display: inline;
   }
-  #hrr{
+  #img{
     width: 805px;
     height: 10px;
     margin-top: 32px;
+    background-image:url(Images/hr-img.png) ;
+    display:inline;
   }
   #Food{
       margin-top: -15px;
@@ -96,9 +98,9 @@ h2{
       font-size: XX-SMALL;
       color: darkgrey;
   }
-  .in2{
+  /* .in2{
     text-decoration: line-through;
-  }
+  } */
 
   #space{
       margin-right: 15px;
@@ -130,7 +132,7 @@ h2{
       float: left;
   }
 
-  :checked {
+  .checked {
     margin-left: 25px;
     border: 1px solid blue;
   }
@@ -163,4 +165,12 @@ h2{
   #twit{
       float:right;
       margin-top: 32px;
+      position: relative;
+  }
+
+  #tex{
+float: right;
+position: relative;
+margin-top: 32px;
+color:gray ;
   }
